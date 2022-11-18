@@ -1,0 +1,363 @@
+body {
+    background-color: beige;
+}
+    
+
+
+p {
+    margin: 0px 0px;
+    font-family: 'helvetica';
+}
+
+
+
+.A4 {
+    display:flex;
+    flex-direction: column;
+    width: 21cm;
+    height: 29.7cm;
+
+}
+
+
+.caja { 
+    background-color: rgb(255, 255, 255);  
+    width: 100%;
+    height: 33%;
+    
+}
+
+
+#Caja1 {
+  
+    position: relative;
+    height: 33%;
+    width: 100%;
+    padding: 0px;
+    justify-content: flex-end
+}
+
+
+
+h1 {
+    margin: 0px 0px;
+}
+
+
+
+#Profesión {
+    position: absolute;
+    width: 35%;
+    height: 15%;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    margin-top: 25%;
+    font-size: 20px;
+    margin-left: 7%;
+}
+
+
+#Nombre {
+    position: absolute;
+    width: 150px;
+    height: 55px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 35%;
+    margin-top: 2%;
+    font-family: 'papyrus';
+    font-size: 30px;
+
+}   
+
+
+
+#Apellidos {
+    position: absolute;
+    width: 50%;
+    height: 15%;
+    background-color: rgb(255, 255, 255);
+    color:black;
+    margin-left: 45%;
+    margin-top:  10%;
+    font-size: 35px;
+}
+
+
+
+
+#Intro {
+    position: absolute;
+    width: 45%;
+    height: 33%;
+    background-color: rgb(255, 255, 255);   
+    color: black;
+    margin-top: 29%;
+    margin-left:2%
+}
+
+
+
+#Imagen {
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    background-image: url(Fotoyo.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    box-shadow: 0 0 0 13px rgb(221, 121, 50);
+    border-radius: 100%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+
+#Contacto {
+    position: absolute;
+    width: 35%;
+    height: 50%;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    margin-left: 60%;
+    margin-top: 22%;
+ 
+}
+
+
+
+#Hueco {
+    padding-left: 20%;
+}
+
+
+
+#Caja2 {
+
+    display: flex;
+    flex-direction:row ;
+    flex-wrap: wrap;
+    height: 33%;
+    width: 100%;
+
+}
+
+
+
+h2 {
+    margin: 1% 30% 0% 15%;
+    font-family: 'helvetica';
+    font-weight: lighter;
+   
+}
+
+
+#Caja2 p{
+    text-align: left;
+    padding-top: 3%;
+    padding-left: 4%;
+    
+}
+
+
+
+#Formaciones{
+    order: 1;
+    width: 35%;
+    height: 10%;
+    background-color: rgb(255, 165, 104);
+    color:black;
+    
+}
+
+
+
+#Cont-form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    order: 6;
+    width: 50%;
+    height: 90%;
+    background-color: rgb(255, 255, 255);
+    color:black;
+    justify-content: center;
+    align-content:center;
+    gap: 20px;
+    
+
+}
+
+#Contform1 {
+    height: 25%;
+    width: 90%;
+    background-color: rgb(44, 196, 181);
+
+}
+
+
+
+#Contform2 {
+    height: 25%;
+    width: 90%;
+    background-color: rgb(44, 196, 181);
+
+}
+
+
+
+#Contform3 {    
+    height: 25%;
+    width: 90%;
+    background-color: rgb(44, 196, 181);
+}
+
+
+
+#Experiencias{
+    order: 4;
+    width: 35%;
+    height: 10%;
+    background-color: rgb(255, 165, 104);
+    color:black;
+}
+
+
+
+#Cont-exp{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    order: 7;
+    width: 50%;
+    height: 90%;
+    background-color: rgb(255, 255, 255);
+    color:black;
+    justify-content: center;
+    align-content:center;
+    gap: 20px;
+
+}
+
+
+
+#Contexp1 {
+    height: 25%;
+    width: 90%;
+    background-color: rgb(44, 196, 181);
+}
+
+
+
+#Contexp2 {
+    height: 25%;
+    width: 90%;
+    background-color: rgb(44, 196, 181);
+}
+
+
+
+#Contexp3 {
+    height: 25%;
+    width: 90%;
+    background-color: rgb(44, 196, 181);
+}
+
+
+
+.vacío2 {
+    width: 10%;
+    height: 10%;
+    background-color:rgb(255, 255, 255);
+}
+
+
+
+#Vacío21 {
+    order: 0;
+}
+
+
+
+#Vacío23 {
+    order: 3;
+}
+
+
+
+#Vacío24 {
+    order: 5;
+
+}
+
+
+
+#Caja3 {
+   
+    display: flex;
+    flex-direction:row ;
+    flex-wrap: wrap;
+    height: 33%;
+    width: 100%;
+    padding: 0px;
+    color:black;
+
+}
+
+
+
+#Vacío31{
+    height: 10%;
+    width: 40%;
+    background-color: rgb(255, 255, 255);
+
+}
+
+
+
+#Vacío32{
+    height: 10%;
+    width: 40%;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+#Skills {
+    height: 10%;
+    width: 20%;
+    background-color: rgb(255, 165, 104);
+    font-family: 'helvetica';
+    font-weight: lighter;
+
+}
+
+
+
+#Skills h2{
+    margin: 1% 30% 0% 23%;
+}
+
+
+
+#Hardsoft {
+    position: relative;
+    height: 90%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+
+
+
+#Soft {
+    position: absolute;
+    width: 750px;
+    height: 350px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 20%;
+    border-radius: 50%;
+    background: #3d528637;
+    left:25%;
+    top: 35%;
+    transform:rotate(150deg);
+   
+}
